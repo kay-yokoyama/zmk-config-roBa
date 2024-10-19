@@ -99,7 +99,7 @@
 &kp EXCLAMATION             &kp AT           &kp HASH         &kp DOLLAR     &kp PERCENT                    &kp CARET     &kp AMPERSAND  &kp LS(N8)             &kp LS(N9)         &kp LBKT
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp SEMICOLON  &kp COMMA    &trans    &trans  &kp C_MUTE    &kp LS(LBKT)   &kp RIGHT_BRACKET      &kp BACKSLASH      &kp EQUAL
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp APOS       &kp PERIOD   &trans    &trans  &kp KP_EQUAL  &kp INT3       &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp INT1
-&trans                      &trans           &trans           &trans         &trans       &trans    &trans  &trans                                                                 &kp LS(SLASH)
+&trans                      &trans           &trans           &trans         &trans       &trans    &trans  &trans                                                                 &kp LS(INT_RO)
             >;
         };
 
@@ -118,7 +118,7 @@
             bindings = <
 &trans    &kp LC(LG(LEFT_ARROW))  &kp UP_ARROW  &kp LC(LG(RIGHT_ARROW))  &trans                       &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
 &trans    &kp LEFT_ARROW          &kp DOWN      &kp RIGHT_ARROW          &trans  &trans    &trans     &kp KP_SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&kp HOME  &kp PAGE_DOWN           &kp END       &kp PAGE_UP              &trans  &trans    &trans     &kp KP_EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDER
+&kp HOME  &kp PAGE_DOWN           &kp END       &kp PAGE_UP              &trans  &trans    &trans     &kp UNDER        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
 &trans    &trans                  &trans        &trans                   &trans  &trans    &kp ENTER  &kp NUMBER_0                                               &kp QUESTION
             >;
         };
