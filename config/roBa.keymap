@@ -66,10 +66,10 @@
             tapping-term-ms = <33>;
         };
 
-        holdTapBehavior: holdTapBehavior {
+        dTapHoldRepeat: dTapHoldRepeat {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAPBEHAVIOR";
-            bindings = <&none>, <&none>;
+            label = "DTAPHOLDREPEAT";
+            bindings = <&mt>, <&mt>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -87,7 +87,7 @@
             bindings = <
 &kp Q          &kp W         &kp E         &kp R     &kp T                                              &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A          &kp S         &kp D         &kp F     &kp G        &kp SEMICOLON        &kp INT_YEN      &kp H        &kp J  &kp K      &kp L    &lt 5 MINUS
-&kp Z          &kp X         &kp C         &kp V     &kp B        &kp RIGHT_BRACKET    &lt 6 BACKSLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT BACKSPACE
+&kp Z          &kp X         &kp C         &kp V     &kp B        &kp RIGHT_BRACKET    &lt 6 BACKSLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &dTapHoldRepeat 0 0
 &mt LCTRL ESC  &kp LEFT_ALT  &kp LEFT_WIN  &mkp MB3  &lt 5 ENTER  &lt 3 TAB            &lt 1 BACKSPACE  &lt 2 SPACE                             &kp SLASH
             >;
 
