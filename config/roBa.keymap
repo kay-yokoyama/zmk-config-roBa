@@ -96,10 +96,10 @@
 
         Mark {
             bindings = <
-&kp EXCLAMATION             &kp AT           &kp HASH         &kp DOLLAR     &kp PERCENT                    &kp CARET     &kp AMPERSAND  &kp LS(N8)             &kp LS(N9)         &kp LBKT
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp SEMICOLON  &kp COMMA    &trans    &trans  &kp C_MUTE    &kp LS(LBKT)   &kp RIGHT_BRACKET      &kp BACKSLASH      &kp EQUAL
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp APOS       &kp PERIOD   &trans    &trans  &kp KP_EQUAL  &kp INT3       &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp INT1
-&trans                      &trans           &trans           &trans         &trans       &trans    &trans  &trans                                                                 &kp LS(INT_RO)
+&kp EXCLAMATION             &kp AT           &kp HASH         &kp DOLLAR     &kp PERCENT                            &kp CARET     &kp AMPERSAND  &kp LS(N8)             &kp LS(N9)         &kp LBKT
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp SEMICOLON  &kp COMMA    &trans        &trans      &kp C_MUTE    &kp LS(LBKT)   &kp RIGHT_BRACKET      &kp BACKSLASH      &kp EQUAL
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp APOS       &kp PERIOD   &kp LS(N8)    &kp LS(N9)  &kp KP_EQUAL  &kp INT3       &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp INT1
+&trans                      &trans           &trans           &trans         &trans       &trans        &trans      &trans                                                                 &kp LS(INT_RO)
             >;
         };
 
