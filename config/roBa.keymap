@@ -106,10 +106,10 @@
 
         Default {
             bindings = <
-&kp Q          &kp W         &kp E         &kp R          &kp T                                                &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A          &kp S         &kp D         &kp F          &kp G        &kp SEMICOLON          &kp INT_YEN      &kp H        &kp J  &kp K      &kp L    &rplt 5 MINUS
-&kp Z          &kp X         &kp C         &kp V          &kp B        &lt 0 RIGHT_BRACKET    &lt 6 BACKSLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &rpi LEFT_SHIFT BACKSPACE
-&mt LCTRL ESC  &kp LEFT_ALT  &kp LEFT_WIN  &rpmt MB3 INS  &lt 5 ENTER  &lt 1 TAB              &lt 1 BACKSPACE  &lt 2 SPACE                             &kp SLASH
+&kp Q          &kp W         &kp E               &kp R          &kp T                                                &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A          &kp S         &kp D               &kp F          &kp G        &kp SEMICOLON          &kp INT_YEN      &kp H        &kp J  &kp K      &kp L    &rplt 5 MINUS
+&kp Z          &kp X         &kp C               &kp V          &kp B        &lt 0 RIGHT_BRACKET    &lt 6 BACKSLASH  &kp N        &kp M  &kp COMMA  &kp DOT  &rpi LEFT_SHIFT BACKSPACE
+&mt LCTRL ESC  &kp LEFT_WIN  &mt LEFT_ALT GRAVE  &rpmt MB3 INS  &lt 5 ENTER  &lt 1 TAB              &lt 1 BACKSPACE  &lt 2 SPACE                             &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
