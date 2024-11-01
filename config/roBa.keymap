@@ -21,6 +21,26 @@
             bindings = <&mkp MB2>;
             key-positions = <20 19>;
         };
+
+        Del {
+            bindings = <&kp DELETE>;
+            key-positions = <8 7>;
+        };
+
+        PrevClick {
+            bindings = <&mkp MB4>;
+            key-positions = <31 32>;
+        };
+
+        ClickNext {
+            bindings = <&mkp MB5>;
+            key-positions = <30 31>;
+        };
+
+        ZH {
+            bindings = <&kp GRAVE>;
+            key-positions = <12 11>;
+        };
     };
 
     macros {
