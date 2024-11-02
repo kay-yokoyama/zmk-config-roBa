@@ -125,7 +125,7 @@
 &trans    &trans            &trans          &trans             &trans          &trans      &kp ENTER  &kp N0                                                     &kp QUESTION
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW LC(DOWN)>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         layer_6 {
