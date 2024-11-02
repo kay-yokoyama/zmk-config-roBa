@@ -119,11 +119,13 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&trans    &kp LC(LG(LEFT))  &kp UP_ARROW    &kp LC(LG(RIGHT))  &trans                               &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
+&trans    &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp SEMICOLON   &trans    &trans     &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
+&kp HOME  &kp PAGE_DOWN     &kp END         &kp PG_UP          &kp APOSTROPHE  &trans    &trans     &kp UNDER        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kt KP_NUMBER_3  &kp BACKSPACE
+&trans    &trans            &trans          &trans             &trans          &trans    &kp ENTER  &kp KP_NUMBER_0                                                     &kp QUESTION
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         layer_6 {
