@@ -16,12 +16,12 @@
     combos {
         compatible = "zmk,combos";
 
-        ZH {
+        ZenkakuHankaku {
             bindings = <&kp GRAVE>;
             key-positions = <11 12>;
         };
 
-        Del {
+        DeleteKey {
             bindings = <&kp DEL>;
             key-positions = <7 8>;
         };
@@ -36,7 +36,7 @@
             key-positions = <32 31>;
         };
 
-        Ins {
+        InsertKey {
             bindings = <&kp INS>;
             key-positions = <6 7>;
         };
